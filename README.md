@@ -2,7 +2,7 @@
 
 ## Background
 
-* This weather application is built on Django web framework and connects to flask application for fetching weather-related data based on Zipcode/Latitude-Longitude and Filters given. Application covers all the boundary conditions and validation for each set of inputs. In case of validation error, Http Response with code 400 and json object will be thrown. Also, application connects with google map api to validate inputted latitude and longitude. In case if zipcode is given, then application uses Google Maps API to validate and fetch required latitude-longitude values. 
+* This weather application is built on Django web framework and connects to flask application for fetching weather-related data based on Zipcode/Latitude-Longitude and Filters given. Application covers all the boundary conditions and validation for each set of inputs. In case of validation error, Http Response with code 400 and json object will be thrown. Also, application connects with google map api to validate input latitude and longitude. In case if zipcode is given, then application uses Google Maps API to validate and fetch required latitude-longitude values. 
 
 ## Routes
 
@@ -24,11 +24,11 @@
 
 ## Setup
 
-1) Make sure Flask (https://github.com/shipwell/mock-weather-api) application running on port 5000.
+1) Make sure Flask (https://github.com/shipwell/mock-weather-api) application is running on port 5000.
 2) Run following command to run weather application
 
     ```
-    git clone https://github.com/shipwell/weatherapp
+    git clone https://github.com/helly1112/weatherapp
     cd weatherapp
     python manage.py runserver 
     ```
