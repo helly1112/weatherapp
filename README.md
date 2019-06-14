@@ -6,7 +6,7 @@
 
 ## Routes
 
-* http://127.0.0.1:8000/polls/current_temperature/
+* http://127.0.0.1:8080/polls/current_temperature/
 
 ### Inputs (Query Parameters)
 
@@ -30,7 +30,7 @@
     ```
     git clone https://github.com/helly1112/weatherapp
     cd weatherapp
-    python manage.py runserver 
+    python manage.py runserver 8080
     ```
 
 ## Usage
